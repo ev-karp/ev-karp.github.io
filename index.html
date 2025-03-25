@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Number Detector</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="h">Telephone Number Validator</h1>
+    <div class="phoneBody">
+      <div id="cam"></div>
+      <div id="display" class="screen">
+        <label for="number">
+          Enter a Phone Number
+        </label>
+        <input
+          maxlength="20"
+          type="text"        
+          id="user-input"
+          class="number"
+        />
+        <div id="results-div"></div>        
+      </div>
+      <div id="buttons">
+        <button id="check-btn" name="check">Check</button>
+        <button id="clear-btn" name="clear">Clear</button>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
